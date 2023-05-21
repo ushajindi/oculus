@@ -1,0 +1,57 @@
+.top{
+  min-height: calc(100vh - 81px);
+  background-image: url("../../images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+}
+.title{
+    padding-top: 3.9%;
+    font-size: 96px;
+}
+.subtitle{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.top__text{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.buy__text{
+    padding-top: 6px;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .top{
+        text-align: center;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    .title{
+        font-size: 66px;
+    }
+    .subtitle{
+        font-size: 24px;
+    }
+}
+@media (max-width: 580px) {
+    .top{
+        background-position:center;
+        background-position-x: -45vh
+    }
+    .title{
+        font-size: 38px;
+    }
+
+}
+@media (max-width: 420px) {
+
+    .title{
+        font-size: 48px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+}
